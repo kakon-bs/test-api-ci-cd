@@ -2,7 +2,7 @@ namespace TestApi
 {
     public class WeatherForecast
     {
-        public DateOnly Date { get; set; }
+        public DateOnly Date1 { get; set; }
 
         public int TemperatureC { get; set; }
 
