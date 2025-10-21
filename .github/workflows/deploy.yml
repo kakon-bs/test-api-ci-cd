@@ -60,5 +60,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /home/ubuntu/MyWebApi
-            nohup dotnet MyWebApi.dll > app.log 2>&1 &
+            sudo systemctl restart mywebapi
             sudo systemctl restart nginx
+
